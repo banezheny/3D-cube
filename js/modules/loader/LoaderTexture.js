@@ -14,6 +14,7 @@ define([
     };
 
     LoaderTexture.prototype.load = function (nameTexture) {
+        //TODO:Added load image
         var texture = THREE.ImageUtils.loadTexture(module.config().planeTextureUrl + nameTexture), textureObj = {};
         textureObj[nameTexture] = texture;
         this.textures.push(textureObj);
