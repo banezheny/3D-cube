@@ -1,6 +1,8 @@
 define([
+
     'three',
-    'modules/Planes/Plane'
+    'modules/planes/Plane'
+
 ], function (THREE, Plane) {
     'user strict';
     var camera, scene, renderer, plane;
@@ -20,11 +22,13 @@ define([
                     heightSegments: 30
                 },
                 material: {
+                    map: 'plane_1.jpg',
                     wireframe: true
                 }
             });
-            console.log({plane: plane});
-            plane.setHeight({random: true, maxHeight: 150}).rotationXYZ({x: -Math.PI / 2}).initializePlane().setToScene(scene);
+
+//            plane.setHeight({random: true, maxHeight: 150}).rotationXYZ({x: -Math.PI / 2}).initializePlane().setToScene(scene);
+            plane.initializePlane().setToScene(scene);
 
             camera.position.y = 500;
             camera.rotation.x = -0.9;

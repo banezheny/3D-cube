@@ -10,6 +10,13 @@ require.config({
         three: {
             exports: 'THREE'
         }
+    },
+
+    config: {
+        'modules/loader/LoaderTexture': {
+//            planeTextureUrl: 'http://www.olegvolk.net/newsite/texturelibrary/greenbark.jpg'
+            planeTextureUrl: 'js/images/plane/'
+        }
     }
 });
 

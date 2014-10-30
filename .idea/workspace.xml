@@ -4,11 +4,11 @@
     <list default="true" id="ecb31c6b-729a-428f-a263-771c17573dcd" name="Default" comment="" />
     <ignored path="3D.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414657663156" ignored="false" />
-    <file path="/bootstrap.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414611641861" ignored="false" />
-    <file path="/application.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414657468693" ignored="false" />
-    <file path="/Plane.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414656646088" ignored="false" />
-    <file path="/LoaderTexture.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414661105484" ignored="false" />
+    <file path="/index.html" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414670906599" ignored="false" />
+    <file path="/bootstrap.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414666898537" ignored="false" />
+    <file path="/application.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414671700377" ignored="false" />
+    <file path="/Plane.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414668648136" ignored="false" />
+    <file path="/LoaderTexture.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414672774459" ignored="false" />
     <file path="/Dummy.txt" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414659136410" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="47" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+            <state line="14" column="48" selection-start="360" selection-end="365" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
@@ -82,25 +82,43 @@
       <file leaf-file-name="bootstrap.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="31" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+            <state line="18" column="9" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="20" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0">
+            <state line="21" column="8" selection-start="502" selection-end="502" vertical-scroll-proportion="0.39766082">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoaderTexture.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoaderTexture.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/modules/loader/LoaderTexture.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.25847954">
+            <state line="16" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageUtils.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/lib/Three/extras/ImageUtils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="4" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageLoader.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/lib/Three/loaders/ImageLoader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="6" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,36 +143,18 @@
         </entry>
       </file>
       <file leaf-file-name="Plane.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/modules/Planes/Plane.js">
+        <entry file="file://$PROJECT_DIR$/js/modules/planes/Plane.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="40" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MeshPhongMaterial.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/lib/Three/materials/MeshPhongMaterial.js">
+      <file leaf-file-name="TextureLoader.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/lib/Three/loaders/TextureLoader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="6" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlaneGeometry.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/lib/Three/extras/geometries/PlaneGeometry.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="77" selection-start="229" selection-end="243" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terrain-height.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/json/terrain-height.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="1" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+            <state line="14" column="4" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,14 +178,15 @@
         <option value="$PROJECT_DIR$/js/modules/application.js" />
         <option value="$PROJECT_DIR$/js/modules/bootstrap.js" />
         <option value="$PROJECT_DIR$/js/modules/Plane/Plane.js" />
-        <option value="$PROJECT_DIR$/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/api/json/terrain-height.js" />
         <option value="$PROJECT_DIR$/api/json/terrain-height.json" />
-        <option value="$PROJECT_DIR$/js/modules/Planes/Plane.js" />
-        <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/common.css" />
+        <option value="$PROJECT_DIR$/js/modules/Planes/Plane.js" />
+        <option value="$PROJECT_DIR$/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/modules/loader/LoaderTexture.js" />
+        <option value="$PROJECT_DIR$/js/modules/planes/Plane.js" />
       </list>
     </option>
   </component>
@@ -273,7 +274,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Planes" />
+              <option name="myItemId" value="planes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,6 +300,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3D-cube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3D-cube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plane" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -310,7 +333,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/home/kcell.garage-gps.com/public_html" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -324,6 +347,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\3D-cube" />
       <recent name="E:\project\3D\css" />
       <recent name="E:\project\3D\js" />
     </key>
@@ -460,6 +484,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -474,11 +499,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497309" sideWeight="0.6708286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -590,21 +614,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/lib/Three/renderers/webgl/plugins/SpritePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/Three/renderers/webgl/plugins/ShadowMapPlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/Three/renderers/webgl/plugins/LensFlarePlugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/Three/Three.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="23" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" />
@@ -623,13 +632,6 @@
     <entry file="file://$PROJECT_DIR$/api/json/terrain-height.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="1" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="31" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -662,30 +664,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/Three/extras/ImageUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="9" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/Three/loaders/ImageLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+        <state line="14" column="48" selection-start="360" selection-end="365" vertical-scroll-proportion="-9.153846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/application.js">
+    <entry file="file://$PROJECT_DIR$/js/lib/Three/loaders/TextureLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="20" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/modules/Planes/Plane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="40" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
+        <state line="14" column="4" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/modules/loader/LoaderTexture.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.25847954">
+        <state line="16" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/planes/Plane.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="502" selection-end="502" vertical-scroll-proportion="0.39766082">
           <folding />
         </state>
       </provider>

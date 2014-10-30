@@ -1,13 +1,23 @@
 define([
     'three',
-    'underscore'
-], function (THREE, _) {
+    'underscore',
+    'modules/loader/LoaderTexture'
+
+], function (THREE, _, LoaderTexture) {
     'user strict';
 
     var Plane = function (options) {
-        var geometry = options.geometry;
+        var geometry = options.geometry, texture;
+
         this.geometry = new THREE.PlaneGeometry(geometry.width, geometry.height, geometry.widthSegments, geometry.heightSegments);
-        this.material = new THREE.MeshBasicMaterial(options.material);
+
+        if (options.material.map) {
+            texture = (new LoaderTexture()).load(options.material.map);
+            this.material = new THREE.MeshBasicMaterial(_.extend(options.material, {map: texture}));
+        } else {
+            this.material = new THREE.MeshBasicMaterial(options.material);
+        }
+
     };
 
     Plane.prototype.setHeight = function (options) {
