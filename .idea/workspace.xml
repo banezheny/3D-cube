@@ -8,7 +8,7 @@
     <file path="/bootstrap.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414611641861" ignored="false" />
     <file path="/application.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414657468693" ignored="false" />
     <file path="/Plane.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414656646088" ignored="false" />
-    <file path="/LoaderTexture.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414660142400" ignored="false" />
+    <file path="/LoaderTexture.js" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414661105484" ignored="false" />
     <file path="/Dummy.txt" changelist="ecb31c6b-729a-428f-a263-771c17573dcd" time="1414659136410" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,7 @@
       <file leaf-file-name="LoaderTexture.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/modules/loader/LoaderTexture.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="3" selection-start="158" selection-end="158" vertical-scroll-proportion="0.27836257">
+            <state line="13" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.25847954">
               <folding />
             </state>
           </provider>
@@ -127,7 +127,7 @@
       <file leaf-file-name="Plane.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/modules/Planes/Plane.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.0">
+            <state line="31" column="40" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -227,13 +227,13 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3D" />
+              <option name="myItemId" value="3D-cube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3D" />
+              <option name="myItemId" value="3D-cube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -243,7 +243,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3D" />
+              <option name="myItemId" value="3D-cube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -257,7 +257,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3D" />
+              <option name="myItemId" value="3D-cube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -279,7 +279,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="3D" />
+              <option name="myItemId" value="3D-cube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -306,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
@@ -669,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/modules/Planes/Plane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1584" selection-end="1584" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="20" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0">
@@ -683,9 +676,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/modules/Planes/Plane.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="40" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/modules/loader/LoaderTexture.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="158" selection-end="158" vertical-scroll-proportion="0.27836257">
+        <state line="13" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.25847954">
           <folding />
         </state>
       </provider>
