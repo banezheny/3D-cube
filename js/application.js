@@ -16,23 +16,23 @@ define([
 
             plane = new Plane({
                 geometry: {
-                    width: 1000,
-                    height: 900,
+                    width: 500,
+                    height: 375,
                     widthSegments: 30,
                     heightSegments: 30
                 },
                 material: {
-                    map: 'plane_1.jpg',
-                    wireframe: true
+                    map: 'plane_1.jpg'
+//                    wireframe: true
                 }
             });
 
-//            plane.setHeight({random: true, maxHeight: 150}).rotationXYZ({x: -Math.PI / 2}).initializePlane().setToScene(scene);
-            plane.initializePlane().setToScene(scene);
+            plane.setHeight({random: true, maxHeight: 150}).rotationXYZ({x: -Math.PI / 2}).initializePlane().setToScene(scene);
+//            plane.initializePlane().setToScene(scene);
 
-            camera.position.y = 500;
-            camera.rotation.x = -0.9;
-            camera.position.z = 550;
+            camera.position.y = 400;
+            camera.rotation.x = -0.8;
+            camera.position.z = 350;
             renderer = new THREE.WebGLRenderer();
             renderer.setSize(window.innerWidth, window.innerHeight);
 
